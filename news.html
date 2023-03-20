@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Tahoma','Verdana', sans-serif;
+	margin: 50px 60px;
+}
+.header{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.headertitle h1{
+	font-size: 100px;
+	font-weight: 600;
+	color: red;
+	text-align: center;
+}
+
+.headertitle p{
+	font-weight: 600;
+	color: black;
+	text-align: left;
+}
+
+.articles{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	padding-top: 30px;
+}
+
+.articles img{
+	width: 200px;
+}
+
+.articles h2{
+	font-weight: 600;
+	color: #0080FF;
+}
+
+.articles p{
+	color: black;
+	text-align:justify;
+	font-weight: bold;
+}
+.articles span{
+	font-weight: 600;
+	color:red;
+	text-align:justify;
+}
+.content{
+	display:grid;
+	grid-template-columns: 80% 20%;
+	padding: 10px;
+}
+.sub-content{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+}
+.right-content{
+	border-left: 3px solid black;
+	padding: 10px;
+	font-size: 2vh;
+	text-align: justify;
+}
+.main-content h1{
+	font-weight: 600;
+	text-align: justify;
+	font-size: 3vh;
+	padding: 10px;
+	
+}
+.main-content span{
+	font-weight: 600;
+	color: blue;
+	text-align: justify;
+	font-size: 3vh;
+}
+.main-content img{
+	width: 100%;
+	padding-right: 10px;
+}
+.footer{
+	width:100%;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-align:center;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News: Sport</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER --> 
+<div>
+	<div class="header">
+			<div class="headertitle">
+				<h1> Sports </h1>
+				<p>Tuesday, March 7,2023</p>
+			</div>
+		<div class="articles">
+		
+			<div>
+				<img src="wjm.jpg" alt="">	
+			</div>
+
+			<div>
+				<h2>Basketball</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span>Page 20.</span></p>
+			</div>
+
+			<div>			
+				<img src="anthonyfoley.jpg" alt="">
+			</div>
+
+			<div>
+				<h2>Anthony Foley</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span>Page 19.</span></p>
+			</div>
+		
+		</div>
+	</div>
+</div>
+<div class="content">
+	<div class="main-content">	
+	<h1><span>UPDATE:</span>Loremis simply dummy text of the printing and typesetting industry.</h1>
+	<img src="footballnews.jpg" alt="">
+	<h1>Lorem Ipsum is simply dummy text</h1>
+			<div class="sub-content">	
+	                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum iure nihil in? Incidunt quo nisi voluptatum sunt ab expedita, perferendis repellat sint cupiditate doloribus obcaecati nemo inventore exercitationem. Iste quod velit explicabo, totam quaerat, veritatis nulla amet ducimus at modi nemo blanditiis ipsa laborum. Tenetur, error facilis! Architecto ratione perspiciatis odio quisquam praesentium rem odit consectetur recusandae itaque. Perspiciatis molestiae eum iusto velit nobis cupiditate inventore excepturi maxime odit quia, doloremque maiores accusantium ipsam dolor dolore rem. Ut hic necessitatibus, dolorem aliquam libero consequatur tempora architecto maxime tempore aliquid? Reiciendis ratione nostrum ea saepe doloremque corporis perspiciatis inventore exercitationem!</p>
+	                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum iure nihil in? Incidunt quo nisi voluptatum sunt ab expedita, perferendis repellat sint cupiditate doloribus obcaecati nemo inventore exercitationem. Iste quod velit explicabo, totam quaerat, veritatis nulla amet ducimus at modi nemo blanditiis ipsa laborum. Tenetur, error facilis! Architecto ratione perspiciatis odio quisquam praesentium rem odit consectetur recusandae itaque. Perspiciatis molestiae eum iusto velit nobis cupiditate inventore excepturi maxime odit quia, doloremque maiores accusantium ipsam dolor dolore rem. Ut hic necessitatibus, dolorem aliquam libero consequatur tempora architecto maxime tempore aliquid? Reiciendis ratione nostrum ea saepe doloremque corporis perspiciatis inventore exercitationem!</p>
+	                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum iure nihil in? Incidunt quo nisi voluptatum sunt ab expedita, perferendis repellat sint cupiditate doloribus obcaecati nemo inventore exercitationem. Iste quod velit explicabo, totam quaerat, veritatis nulla amet ducimus at modi nemo blanditiis ipsa laborum. Tenetur, error facilis! Architecto ratione perspiciatis odio quisquam praesentium rem odit consectetur recusandae itaque. Perspiciatis molestiae eum iusto velit nobis cupiditate inventore excepturi maxime odit quia, doloremque maiores accusantium ipsam dolor dolore rem. Ut hic necessitatibus, dolorem aliquam libero consequatur tempora architecto maxime tempore aliquid? Reiciendis ratione nostrum ea saepe doloremque corporis perspiciatis inventore exercitationem!</p>
+			</div>
+		</div>
+			<div class="right-content">
+			<h2>Lorem Ipsum is simply dummy text</h2>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum iure nihil in? Incidunt quo nisi voluptatum sunt ab expedita, perferendis repellat sint cupiditate doloribus obcaecati nemo inventore exercitationem. Iste quod velit explicabo, totam quaerat, veritatis nulla amet ducimus at modi nemo blanditiis ipsa laborum. Tenetur, error facilis! Architecto ratione perspiciatis odio quisquam praesentium rem odit consectetur recusandae itaque. Perspiciatis molestiae eum iusto velit nobis cupiditate inventore excepturi maxime odit quia, doloremque maiores accusantium ipsam dolor dolore rem. Ut hic necessitatibus, dolorem aliquam libero consequatur tempora architecto maxime tempore aliquid? Reiciendis ratione nostrum ea saepe doloremque corporis perspiciatis inventore exercitationem!
+			</p>
+			</div>
+		</div>
+
+</div>
+
+<div class="footer">
+	<p>this is a footer</p>
+</div>
+
+
+
+</body>
+</html>

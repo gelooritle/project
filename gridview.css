@@ -1,0 +1,72 @@
+*{
+		box-sizing: border-box;
+	}
+
+	.header{
+		border: 1px solid blue;
+		padding-left: 20px;
+
+	}
+	.nav{
+		width:33.33%;
+		float:right;
+		padding: 20px;
+		border: 1px solid blue;
+	}
+	.home{
+		width:33.33%;
+		float:right;
+		padding:20px;
+		border: 1px solid blue;
+	}
+	.subhome{
+		width:33.33%;
+		float:right;
+		padding:20px;
+		border: 1px solid blue;
+	}
+	@media screen and (max-width: 800px: px){
+	.nav, .home, .subhome{
+		width:100%;
+		padding:0;
+	}
+	@media screen and (max-width: 400px: px){
+		.topnav a{
+			width:100%;
+			padding: 0;
+		}
+	}
+}
+	p{
+	font-size: 1vw;
+}
+h2{
+font-size: 4vw;
+}
+h1{
+font-size: 5vw;
+}
+li{
+	font-size: 1vw;
+}
+/* Nav Bar */ 
+.topnav{
+	overflow:hidden;
+	background-color: black;
+}
+
+.topnav a{
+	float:left;
+	display:block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover{
+	background: #ddd;
+	color: black;
+	overflow: hidden;
+
+}
